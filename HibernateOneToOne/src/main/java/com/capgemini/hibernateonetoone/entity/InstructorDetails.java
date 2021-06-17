@@ -1,7 +1,11 @@
 package com.capgemini.hibernateonetoone.entity;
 
 import javax.persistence.*;
-
+/**
+ * 
+ * @author genesis
+ *
+ */
 @Entity
 public class InstructorDetails {
 

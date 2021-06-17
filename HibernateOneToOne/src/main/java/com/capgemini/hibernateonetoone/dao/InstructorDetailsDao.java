@@ -5,7 +5,11 @@ import org.hibernate.Transaction;
 
 import com.capgemini.hibernateonetoone.entity.InstructorDetails;
 import com.capgemini.hibernateonetoone.util.HibernateUtil;
-
+/**
+ * 
+ * @author genesis
+ *
+ */
 public class InstructorDetailsDao {
 
 	public void SaveInstructor(InstructorDetails instructordetails) {

@@ -12,10 +12,11 @@ import org.hibernate.service.ServiceRegistry;
 import com.capgemini.hibernateonetoone.entity.Instructor;
 import com.capgemini.hibernateonetoone.entity.InstructorDetails;
 
-/*
+/**
  * Java Configuration file that contains
  * information about the database
  * instead of hibernate.cfg.xml file
+ * @author genesis
  */
 public class HibernateUtil {
 	
