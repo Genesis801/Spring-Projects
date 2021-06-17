@@ -14,7 +14,11 @@ import com.capgemini.hibernateonetoone.entity.Instructor;
 import com.capgemini.hibernateonetoone.entity.InstructorDetails;
 import com.capgemini.hibernateonetoone.entity.Projects;
 
-
+/**
+ * 
+ * @author genesis
+ *
+ */
 /*
  * Java Configuration file that contains
  * information about the database

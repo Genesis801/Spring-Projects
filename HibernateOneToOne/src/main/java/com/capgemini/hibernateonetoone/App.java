@@ -6,7 +6,11 @@ import com.capgemini.hibernateonetoone.entity.Instructor;
 import com.capgemini.hibernateonetoone.entity.InstructorDetails;
 import com.capgemini.hibernateonetoone.entity.Projects;
 
-
+/**
+ * 
+ * @author genesis
+ *
+ */
 public class App 
 {
     public static void main( String[] args )

@@ -5,7 +5,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
-
+/**
+ * 
+ * @author genesis
+ *
+ */
 @Entity
 public class Course {
 	

@@ -16,7 +16,11 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
-
+/**
+ * 
+ * @author genesis
+ *
+ */
 @Entity
 public class Instructor {
 	

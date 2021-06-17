@@ -9,7 +9,11 @@ import com.capgemini.hibernateonetoone.entity.Instructor;
 import com.capgemini.hibernateonetoone.util.HibernateUtil;
 
 
-
+/**
+ * 
+ * @author genesis
+ *
+ */
 public class InstructorDao {
 	
 	//inserting the instructor
