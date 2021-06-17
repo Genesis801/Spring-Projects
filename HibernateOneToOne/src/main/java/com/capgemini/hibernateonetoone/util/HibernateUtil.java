@@ -9,14 +9,16 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
 
+import com.capgemini.hibernateonetoone.entity.Course;
 import com.capgemini.hibernateonetoone.entity.Instructor;
 import com.capgemini.hibernateonetoone.entity.InstructorDetails;
+import com.capgemini.hibernateonetoone.entity.Projects;
 
-/**
+
+/*
  * Java Configuration file that contains
  * information about the database
  * instead of hibernate.cfg.xml file
- * @author genesis
  */
 public class HibernateUtil {
 	
@@ -49,12 +51,13 @@ public class HibernateUtil {
 				dbsettings.put(Environment.PASS, "root");
 				dbsettings.put(Environment.DIALECT, "org.hibernate.dialect.OracleDialect");
 				dbsettings.put(Environment.SHOW_SQL, "true");
-				dbsettings.put(Environment.HBM2DDL_AUTO, "create");
+				dbsettings.put(Environment.HBM2DDL_AUTO, "create-drop");
 				dbsettings.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
 				cfg.setProperties(dbsettings);
 				cfg.addAnnotatedClass(Instructor.class);
 				cfg.addAnnotatedClass(InstructorDetails.class);
-				
+				cfg.addAnnotatedClass(Course.class);
+				cfg.addAnnotatedClass(Projects.class);
 				/*
 				 * this contains contract that make up the hibernate
 				 * native bootstrapping API to register the application

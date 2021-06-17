@@ -8,16 +8,12 @@ import org.hibernate.Transaction;
 import com.capgemini.hibernateonetoone.entity.Instructor;
 import com.capgemini.hibernateonetoone.util.HibernateUtil;
 
-/**
- * 
- * @author genesis
- *
- */
+
 
 public class InstructorDao {
 	
 	//inserting the instructor
-	public void SaveInstructor(Instructor instructor) {
+	public void saveInstructor(Instructor instructor) {
 		Transaction transaction = null;
 		try {
 			Session session = HibernateUtil.getSessionFactory().openSession();
